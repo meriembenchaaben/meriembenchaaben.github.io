@@ -1,0 +1,204 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+section.intro img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* ... (existing styles) */
+
+/* Define a class for circular icons */
+/* ... (existing styles) */
+
+/* Center the circular icons horizontally */
+/* ... (existing styles) */
+
+/* Center the circular icons horizontally */
+/* ... (existing styles) */
+
+/* Center the circular icons horizontally */
+.contact-info {
+    text-align: center;
+}
+
+/* Define a class for circular icons */
+
+
+/* Style the circular icons with background color and size */
+/* ... (existing styles) */
+
+/* Define a class for circular icons */
+/* ... (existing styles) */
+
+/* Define a class for circular icons */
+.contact-item {
+    display: block; /* Change from "inline-block" to "block" to stack vertically */
+    margin: 10px auto; /* Center-align each circular icon and add spacing */
+    text-align: center;
+}
+
+/* Style the circular icons with background color and size */
+.circular-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    background-color: #007acc; /* Adjust the background color as needed */
+    border-radius: 50%; /* Makes it circular */
+    transition: background-color 0.3s ease; /* Add a hover effect if desired */
+    background-size: contain; /* Prevents the image from repeating and maintains aspect ratio */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center center; /* Centers the background image */
+}
+
+/* Change the background color on hover (optional) */
+.circular-icon:hover {
+    background-color: #0099ff; /* Change the background color on hover */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+.contact-row {
+    display: flex;
+    justify-content: space-between; /* Space out each contact item */
+}
+
+/* ... (existing styles) */
+
+.bio {
+    
+    padding: 20px;
+}
+
+/* Style the bio content */
+.bio-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
+}
+/* ... (existing styles) */
+
+/* Style the publication items */
+/* ... (existing styles) */
+
+/* Center-align the publications section */
+.publications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the publication items */
+.publication-item {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style publication titles */
+.publication-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style publication dates */
+.publication-item p:nth-child(2) {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Style publication descriptions */
+.publication-item p:nth-child(3) {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style publication links */
+.publication-item a {
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.teaching-item {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style teaching item titles */
+.teaching-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style teaching item details */
+.teaching-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style teaching item responsibilities */
+.teaching-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+
+
+
